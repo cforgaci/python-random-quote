@@ -9,8 +9,10 @@ def primary():
 
   last = 13
   rnd = random.randint(0, last)
+  print(quotes[rnd], end='')
 
-  print(quotes[rnd])
+  rnd = random.randint(0, last)
+  print(quotes[rnd], end='')
 
 if __name__== "__main__":
   primary()
